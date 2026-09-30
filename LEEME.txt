@@ -1,0 +1,15 @@
+Abre index.html en un navegador moderno. Mantén los cuatro archivos juntos.
+
+# Laberinto de las palabras
+Juego autónomo HTML/CSS/JavaScript de Lenguaje para octavo básico. Sin dependencias, cuentas ni servicios de pago en la aplicación.
+
+## Ejecutar sin conexión
+Abre `dist/index.html` en un navegador moderno. Conserva los cuatro archivos de `dist` juntos. En móviles se recomienda servir esa carpeta mediante cualquier servidor estático.
+
+## Editar contenidos
+Modifica `dist/contenidos.js`. Cada fila tiene nivel (1–3), nombre, categoría, definición (hasta 35 palabras), ejemplo y dos distractores. El nivel 4 combina todas las categorías. Las preguntas se construyen a partir de los fragmentos originales y se pueden personalizar en `PREGUNTAS`. Cambiar IDs de contenidos puede invalidar el progreso existente: incrementa la versión y la clave de almacenamiento en `juego.js` si reorganizas filas.
+
+## Reglas
+Flechas o WASD cambian la dirección de movimiento continuo. P o Escape pausa. Espacio cierra las tarjetas o la retroalimentación. Controles táctiles incluidos. Cada objeto ofrece una tarjeta y 10 puntos. Cada cinco objetos aparece una pregunta sobre un concepto presentado en esa sala; aciertos suman 50 puntos y errores no restan vidas. Estrellas otorgan ocho segundos de invulnerabilidad. El tiempo se congela durante diálogos y pausas. Los enemigos quitan una vida al contacto sin escudo. Tres vidas; reintentar una sala conserva biblioteca y puntuación previa. Reiniciar desde cero requiere confirmación. Guardado local tras movimientos y cambios de estado, con recuperación de tarjetas y preguntas pendientes.
+
+60 conceptos, 60 preguntas de reconocimiento y aplicación contextual. Definiciones de apoyo educativo, sin pretensión de cubrir por completo las bases curriculares oficiales.
